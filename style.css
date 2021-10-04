@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(assets/background.svg);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar li {
+    float: left;
+    margin-left: 10px;
+}
+.navbar li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+.navbar img {
+    float: left;
+    border-radius: 50%;
+}
+.navbar li a:hover{
+    color: rgb(223, 0, 0);
+    transition: 0.80s;
+}
+.navbar ul li a .abt {
+    float: right;
+}
+.main h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.main p{
+    text-align: center;
+    color: white;
+}
+.main a {
+    color: white;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main button {
+    padding: 20px;
+    border: none;
+    font-size: 19px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(24, 45, 139);
+}
+.main button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:url(assets/cursor.cur),auto;
+}
+.main button:hover {
+    transition-duration: 0.80s;
+    background-color: rgb(29, 40, 197);
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    .navbar li {
+        float: left;
+        margin-left: 10px;
+    }
+    .navbar li a {
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        font-size: 23px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+    }
+    .navbar img {
+        float: left;
+        border-radius: 50%;
+    }
+    .navbar li a:hover{
+        color: rgb(223, 0, 0);
+        transition: 0.80s;
+    }
+    .navbar ul li a .abt {
+        float: right;
+    }
+}
